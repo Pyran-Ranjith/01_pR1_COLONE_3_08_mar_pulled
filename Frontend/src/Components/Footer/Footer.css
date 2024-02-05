@@ -1,0 +1,62 @@
+/* Footer CSS */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+
+  ul {
+    list-style: none; /* Remove bullets */
+    padding: 0; /* Remove default padding */
+  }
+  
+  ul li {
+    margin-bottom: 5px; /* Add space between list items */
+  }
+  
+  ul li a {
+    text-decoration: none; /* Remove underline */
+  }
+  
+  ul.social-icons {
+    list-style-type: none; /* Remove list bullets */
+    padding: 0;
+    margin: 0;
+  }
+  
+  ul.social-icons li {
+    display: inline-block;
+    margin-right: 20px; /* Add space between icons */
+  }
+  
+  ul.social-icons li:last-child {
+    margin-right: 0; /* Remove margin from the last icon */
+  }
+  
+  ul.social-icons li a {
+    color: #fff; /* Set icon color to white */
+  }
+  
+  ul.social-icons li a i {
+    font-size: 24px; /* Enlarge icon size */
+  }
+
+  /* Explore Section */
+.col-lg-4 ul {
+  list-style: none; /* Remove bullets */
+  padding: 0; /* Remove default padding */
+}
+
+.col-lg-4 ul li {
+  margin-bottom: 5px; /* Add space between list items */
+  color: #fff; /* Set font color to white */
+}
+
+.col-lg-4 ul li a {
+  text-decoration: none; /* Remove underline */
+  color: #fff; /* Set font color to white */
+}
+
+h4 {
+  margin-bottom: 30px;
+}

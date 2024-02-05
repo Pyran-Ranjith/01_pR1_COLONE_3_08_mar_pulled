@@ -1,0 +1,20 @@
+/* Header and Footer CSS */
+
+/* Header */
+header {
+    background-color: #333; /* Dark background color */
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    color: #fff; /* White color for the brand */
+  }
+  
+  .navbar-nav .nav-item .nav-link {
+    color: #fff; /* White color for the navigation links */
+  }
+  
+  .navbar-nav .nav-item .nav-link:hover {
+    color: #007bff; /* Hover color for the navigation links */
+  }
+  
