@@ -6,6 +6,11 @@
 03_dinesh_git_push.bat
 03_git_push.bat
 
+Frontend/public/assets copy/
+Frontend/public/vendor copy/
+Frontend/public/index_0.html
+Frontend/public/assets/_images_not_needed_in_cotatct/
+
 # Logs
 logs
 *.log
