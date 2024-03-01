@@ -1,5 +1,10 @@
 # Ranjith's ignore stuff
 .vscode/
+.gitignore
+01_git_set_remote_orign_url.bat
+02_git_add-alland-commit.bat
+03_dinesh_git_push.bat
+03_git_push.bat
 
 # Logs
 logs

@@ -2,8 +2,8 @@
 ::___________Set Variables______________________
 :: Origin for this repo
 @REM   set this_repo=https://github.com/Pyran-Ranjith/Global.git
-  set this_repo=https://github.com/Pyran-Ranjith/PyraN-Technologies.git
-@REM   set this_repo= https://github.com/Dinesh-Saman/PyraN-Technologies.git
+@REM   set this_repo=https://github.com/Pyran-Ranjith/PyraN-Technologies.git
+  set this_repo= https://github.com/Dinesh-Saman/PyraN-Technologies.git
 ::____________Process begin here________________________
 ::echo Hear is the result_______________________
 ::set origin 1. after clone to create local repo 
