@@ -13,13 +13,13 @@ const ContactUs = () => {
                   <div class="col-lg-4">
                     <div class="item">
                       <img
-                        src="assets/_images_not_needed_in_cotatct/projects-01.jpg"
+                        src="assets/images/projects-01.jpg"
                         width="100%"
                         height="670px"
                         frameborder="0"
                         //  style="border:0; border-radius: 23px;"
                         allowfullscreen=""
-                        alt="img services-left.jpg not found"
+                        alt="img projects-01.jpg not found"
                       />
 
                       {/* <View style={styles.container}> */}
