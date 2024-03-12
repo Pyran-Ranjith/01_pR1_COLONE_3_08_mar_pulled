@@ -4,88 +4,126 @@ const ContactUs = () => {
   return (
     <>
       <div class="contact-us section" id="contact">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="contact-us-content">
-                <div class="row">
-
-                  <div class="col-lg-8">
-                    <form id="contact-form" action="" method="post">
-                      <div class="row">
-
-                        {/* Header row Contact Us */}
-                        <div class="col-lg-12">
-
-                          <div class="section-heading">
-                            <h2>
-                              {/* <em>Contact Us</em> &amp; Get In{" "} */}
-                              <em>Contact Us</em>
-                            </h2>
-                          </div>
-
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="contact-us-content">
+              <div class="row">
+                <div class="col-lg-8">
+                  <form id="contact-form" action="" method="post">
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <div class="section-heading em">
+                          <h3>Contact Us</h3>
                         </div>
+                      </div>
 
-                        {/* Contact info - phne, email and whtsapp */}
-                        <div class="more-info">
-                          <div class="row">
-                            {/* <div class="col-lg-4"> */}
-                            <div class="col-sm-4">
-                              <div class="info-item">
-                                <i class="fa fa-phone"></i>
-                                {
-                                  <h4>
-                                    <a href="#">0112 123 456 78 90</a>
-                                  </h4>
-                                }
-                              </div>
-                            </div>
-                            <div class="col-lg-4">
-                              <div class="info-item">
-                                <i class="fa fa-envelope"></i>
-                                <h4>
-                                  <a href="#">pyran@gmail.com</a>
-                                </h4>
-                              </div>
-                            </div>
-                            <div class="col-lg-4">
-                              <div class="info-item">
-                                <i class="fab fa-whatsapp "></i>
-                                <h4>
-                                  <a href="#">pyran@gmail.com</a>
-                                </h4>
-                              </div>
+                      <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+                        <noscript>contactus phone, email and whtsapp</noscript>
+
+                        <noscript>phone</noscript>
+                        <div class="col-md-4 mb-5 mb-md-0">
+                          <div class="card">
+                            <img
+                              src="assets/images/telephone.png"
+                              class="card-img-top"
+                              alt="telephone.png"
+                            />
+
+                            <div class="card-body">
+                              <h1 class="card-title pricing-card-title">
+                                <small class="text-body-secondary fw-light"></small>
+                              </h1>
+                              <ul class="list-unstyled mt-3 mb-4">
+                                <li>Contact Number</li>
+                                <li></li>
+                                <li>025 - xxxxxxxx</li>
+                              </ul>
                             </div>
                           </div>
                         </div>
 
-                        {/* Message input text box */}
-                        <div class="col-lg-12">
-                          <fieldset>
-                          <br/>
-                            <textarea
-                              name="message"
-                              id="message"
-                              placeholder="
-                              Your message ___________________________________________
+                        <noscript>email</noscript>
+                        <div class="col-md-4 mb-5 mb-md-0">
+                          <div class="card">
+                            <img
+                              src="assets/images/e-mail.png"
+                              class="card-img-top"
+                              alt="e-mail.png"
+                            />
+                            <div class="card-body">
+                              <h1 class="card-title pricing-card-title">
+                                <small class="text-body-secondary fw-light"></small>
+                              </h1>
+                              <ul class="list-unstyled mt-3 mb-4">
+                                <li>Email</li>
+                                <li></li>
+                                <li>. . @gmail.com</li>
+                              </ul>
+                            </div>
+                            <noscript>
+                              <button
+                                type="button"
+                                class="w-100 btn btn-lg btn-outline-primary"
+                              >
+                                Sign up for free
+                              </button>
+                            </noscript>
+                          </div>
+                        </div>
+
+                        <noscript>Whtsapp</noscript>
+                        <div class="col-md-4 mb-5 mb-md-0">
+                          <div class="card">
+                            <img
+                              src="assets/images/whtsapp.png"
+                              class="card-img-top"
+                              alt="whtsapp.png"
+                            />
+
+                            <div class="card-body">
+                              <h1 class="card-title pricing-card-title">
+                                <small class="text-body-secondary fw-light"></small>
+                              </h1>
+                              <ul class="list-unstyled mt-3 mb-4">
+                                <li>Whtsapp</li>
+                                <li></li>
+                                <li>025 - xxxxxxxx</li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <noscript>Message</noscript>
+                      <div class="col-md-3 mb-8 mb-md-0"></div>
+                      <div class="col-lg-12">
+                        <fieldset>
+                          <br />
+                          <textarea
+                            style={{ color: "black" }}
+                            name="message"
+                            id="message"
+                            placeholder="
+                                   ______________________________________________________
                               ___________________________________________________________
                               ___________________________________________________________
                               ___________________________________________________________
                              "
-                            ></textarea>
-                          </fieldset>
-                        </div>
+                          ></textarea>
+                        </fieldset>
+                      </div>
 
-                        {/* Sub Header row - Get in touch with us */}
-                        <div class="col-lg-12">
-                          <div class="section-heading">
-                            <h4>
-                              Get in touch with us
-                            </h4>
-                          </div>
+                      <noscript>Sub Header row - Get in touch with us</noscript>
+                      <div class="col-lg-12">
+                        <div class="section-heading">
+                          <h4>Get in touch with us</h4>
                         </div>
+                      </div>
 
-                        <div class="col-lg-8">
+                      <noscript>Name inpt</noscript>
+                      <div class="row">
+                        <div class="col-8">
+                          <noscript>name</noscript>
                           <fieldset>
                             <input
                               type="name"
@@ -96,9 +134,8 @@ const ContactUs = () => {
                               required
                             ></input>
                           </fieldset>
-                        </div>
 
-                        <div class="col-lg-8">
+                          <noscript>Email input</noscript>
                           <fieldset>
                             <input
                               type="text"
@@ -109,52 +146,40 @@ const ContactUs = () => {
                               required=""
                             ></input>
                           </fieldset>
-                        </div>
 
-                        <div class="col-lg-12">
+                          <noscript>Message input</noscript>
                           <fieldset>
                             <textarea
                               name="message"
                               id="message"
-                              // placeholder="Your Message"
-
                               placeholder="
                               Message
                              "
                             ></textarea>
                           </fieldset>
                         </div>
-                        <div class="col-lg-12">
-                          <fieldset>
-                            <button
-                              type="submit"
-                              id="form-submit"
-                              class="orange-button"
-                            >
-                              Send Message
+
+                        <noscript>Image side-bar</noscript>
+                        <div class="col-4">
+                          <div class="imgBx">
+                            <a href="#">
+                              <img src="assets/images/contactus.jpg" />
+                            </a>
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                          </div>
+                          <div>
+                            <button type="button" class="btn btn-success">
+                              Success
                             </button>
-                          </fieldset>
+                          </div>
                         </div>
                       </div>
-                    </form>
-
-                    {/* End of contact-us */}
-                  </div>
-                  
-                  <div class="col-lg-4">
-                    <div class="item">
-                      <img
-                        src="assets/images/projects-01.jpg"
-                        width="100%"
-                        height="670px"
-                        frameborder="0"
-                        //  style="border:0; border-radius: 23px;" (This opton does not work, WHY??)
-                        allowfullscreen=""
-                        alt="img projects-01.jpg not found"
-                      />
                     </div>
-                  </div>
-
+                  </form>
                 </div>
               </div>
             </div>
